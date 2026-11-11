@@ -1,5 +1,7 @@
 # Weights & Biases Automated Hyperparameter Optimization
 
+By Dwight Paniagua and Joseph Perez
+
 A guided hyperparameter optimization workshop for **EGR 444: Advanced AI/ML for Engineering Applications** at the University of Rhode Island.
 
 In this lesson, we use Weights & Biases (W&B) to perform automated hyperparameter optimization. We will go through the full workflow: inspecting the data, setting up W&B accounts, running a basic example, running an example with W&B Sweeps, and investigating differences in parameter importance.
