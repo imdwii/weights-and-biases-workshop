@@ -7,20 +7,18 @@ A guided hyperparameter optimization workshop for **EGR 444: Advanced AI/ML for 
 In this lesson, we use Weights & Biases (W&B) to perform automated hyperparameter optimization. We will go through the full workflow: inspecting the data, setting up W&B accounts, running a basic example, running an example with W&B Sweeps, and investigating differences in parameter importance.
 
 ## Project use cases and limitations
-1. Use cases 
-- Record and compare training metrics easily 
-- Can use W&B Sweeps to test different hyperparamters
-- Genrates graphs for user automatically 
-- quick and easy implmentation in the code to get it working
+### 1. Use Cases
+- Easily record and compare training metrics.
+- Use W&B Sweeps to test different hyperparameters.
+- Automatically generate graphs for users.
+- Quick and easy to implement in code.
 
-2. Limitations
-- Needs internet connection for use
-- The Sweeps can be very computational heavy 
-- Requires subscription outside of academic account that we use.
-- Learning curve to learn how to implement code at first 
-- Incorrect API keys, network problems can interrupt logging and complicate training  
-
-
+### 2. Limitations
+- Requires an internet connection for full functionality.
+- Sweeps can be very computationally intensive.
+- May require a paid subscription outside of the academic account we use.
+- Has an initial learning curve when implementing W&B into code.
+- Incorrect API keys or network problems can interrupt logging and complicate training. 
 
 ## Learning outcome
 
@@ -79,7 +77,7 @@ python -m pip install -r requirements.txt
 
 ## Troubleshooting guidance
 
-1. any issues with the torch or torchvsion libraries use in the requirements.txt file  
+1. any issues with the torch or Torchvsion libraries used in the requirements.txt file  
 - torch==2.14.1+cpu; sys_platform == 'win32'
 - torchvision==0.29.1+cpu; sys_platform == 'win32'
 In the terminal you can instead run  
@@ -87,13 +85,13 @@ pip install torch==2.14.1+cpu
 pip install torchvision==0.29.1+cpu
 
 2. Login issues 
-- If the window doesn't pop up try running the windo again if not run
+- If the login window does not appear try refreashing  the window again If the issue persists, run
 
 ```bash
 wandb login --relogin
 ```
-
-
+3. Webpage is flickering
+- Try zooming out on the webpage which should make graphs not jump and flicker
 
 ## Sources
 
