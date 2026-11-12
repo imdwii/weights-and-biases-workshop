@@ -76,15 +76,15 @@ python -m pip install -r requirements.txt
 
 ## Troubleshooting guidance
 
-1. any issues with the torch or Torchvsion libraries used in the requirements.txt file  
-- torch==2.14.1+cpu; sys_platform == 'win32'
-- torchvision==0.29.1+cpu; sys_platform == 'win32'
-In the terminal you can instead run  
-pip install torch==2.14.1+cpu
-pip install torchvision==0.29.1+cpu
+1. Any issues with the torch or torchvision libraries used in the requirements.txt file:
+    - torch==2.14.1; sys_platform == 'win32'
+    - torchvision==0.29.1; sys_platform == 'win32'
+
+    In the terminal, you can instead run these commands:
+    - pip install torch==2.14.1+cpu torchvision==0.29.1+cpu
 
 2. Login issues 
-- If the login window does not appear try refreashing  the window again If the issue persists, run
+- If the login window does not appear try refreashing the window again. If the issue persists, run
 
 ```bash
 wandb login --relogin
@@ -97,3 +97,4 @@ wandb login --relogin
 - [PyTorch example code](https://docs.pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html)
 - [Weights and Biases documentation](https://docs.coreweave.com/forge-home)
 - [Formatting & structure](https://github.com/mchiovaro/object-detection-lesson)
+- [Fashion-MNIST dataset](https://www.kaggle.com/datasets/zalando-research/fashionmnist)
