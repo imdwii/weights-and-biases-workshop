@@ -16,7 +16,7 @@ In this lesson, we use Weights & Biases (W&B) to perform automated hyperparamete
 - Requires an internet connection for full functionality.
 - Sweeps can be very computationally intensive.
 - May require a paid subscription outside of the academic account we use.
-- Has an initial learning curve when setting up W&B inital code and sweeps, but requires relatively little code to implement.
+- Has an initial learning curve when setting up W&B initial code and sweeps, but requires relatively little code to implement.
 - Incorrect API keys or network problems can interrupt logging and complicate training. 
 
 ## Learning outcome
