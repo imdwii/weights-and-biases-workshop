@@ -11,13 +11,12 @@ In this lesson, we use Weights & Biases (W&B) to perform automated hyperparamete
 - Easily record and compare training metrics.
 - Use W&B Sweeps to test different hyperparameters.
 - Automatically generate graphs for users.
-- Quick and easy to implement in code.
 
 ### 2. Limitations
 - Requires an internet connection for full functionality.
 - Sweeps can be very computationally intensive.
 - May require a paid subscription outside of the academic account we use.
-- Has an initial learning curve when implementing W&B into code.
+- Has an initial learning curve when setting up W&B inital code and sweeps, but requires relatively little code to implement.
 - Incorrect API keys or network problems can interrupt logging and complicate training. 
 
 ## Learning outcome
