@@ -7,6 +7,19 @@ A guided hyperparameter optimization workshop for **EGR 444: Advanced AI/ML for 
 In this lesson, we use Weights & Biases (W&B) to perform automated hyperparameter optimization. We will go through the full workflow: inspecting the data, setting up W&B accounts, running a basic example, running an example with W&B Sweeps, and investigating differences in parameter importance.
 
 ## Project use cases and limitations
+1. Use cases 
+- Record and compare training metrics easily 
+- Can use W&B Sweeps to test different hyperparamters
+- Genrates graphs for user automatically 
+- quick and easy implmentation in the code to get it working
+
+2. Limitations
+- Needs internet connection for use
+- The Sweeps can be very computational heavy 
+- Requires subscription outside of academic account that we use.
+- Learning curve to learn how to implement code at first 
+- Incorrect API keys, network problems can interrupt logging and complicate training  
+
 
 
 ## Learning outcome
@@ -65,6 +78,22 @@ python -m pip install -r requirements.txt
 2. Populated W&B project dashboard comparing all trials and saved .pth model checkpoints in your outputs/ directory.
 
 ## Troubleshooting guidance
+
+1. any issues with the torch or torchvsion libraries use in the requirements.txt file  
+- torch==2.14.1+cpu; sys_platform == 'win32'
+- torchvision==0.29.1+cpu; sys_platform == 'win32'
+In the terminal you can instead run  
+pip install torch==2.14.1+cpu
+pip install torchvision==0.29.1+cpu
+
+2. Login issues 
+- If the window doesn't pop up try running the windo again if not run
+
+```bash
+wandb login --relogin
+```
+
+
 
 ## Sources
 
